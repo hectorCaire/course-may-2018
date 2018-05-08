@@ -1,0 +1,132 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="navbar">
+    <nav class="navbar__container">
+        <h1 class="navbar__title">centraal Academy</h1>
+        <ul class="navbar__links">
+          <li class="navbar__item"><a class="navbar__item-link" href="http://yahoo.com">NOSOTROS</a></li>
+          <li class="navbar__item"><a class="navbar__item-link" href="http://yahoo.com">PROGRAMAS</a></li>
+          <li class="navbar__item"><a class="navbar__item-link" href="http://yahoo.com">BECAS</a></li>
+          <li class="navbar__item"><a class="navbar__item-link" href="http://yahoo.com">CONTENIDOS</a></li>
+        </ul>
+        <div>
+          <button class="navbar__button modal__button">Aplicar</button>
+          <button class="navbar__button--mobile">X</button>
+        </div>
+      </nav>
+
+  </header>
+  <section class="sidemenu sidemenu--hidden">
+    <button class="navbar__button--mobile">X</button>
+    <ul class="navbar__links--mobile">
+      <li class="navbar__item--mobile"><a class="navbar__item-link--mobile" href="http://yahoo.com">NOSOTROS</a></li>
+      <li class="navbar__item--mobile"><a class="navbar__item-link--mobile" href="http://yahoo.com">BECAS</a></li>
+      <li class="navbar__item--mobile"><a class="navbar__item-link--mobile" href="http://yahoo.com">PROGRAMAS</a></li>
+      <li class="navbar__item--mobile"><a class="navbar__item-link--mobile" href="http://yahoo.com">CONTENIDOS</a></li>
+    </ul>
+  </section>
+  <section class="cover">
+    <picture class="cover__picture">
+      <img src="img/slogan-shadow.png" alt="slogan" class="cover__image">
+    </picture>
+  </section>
+  <section class="stats">
+    <div class="content">
+      <article class="stats__numbers">
+        <div class="stats__item">
+          <h5 class="stats__item-title">+32</h5>
+          <p>Becas Frontend <br>y Backend</p>
+        </div>
+        <div class="stats__item">
+          <h5 class="stats__item-title">2</h5>
+          <p>Sedes: Guadalajara <br>y Ciudad de México</p>
+        </div>
+        <div class="stats__item">
+          <h5 class="stats__item-title">85%</h5>
+          <p>De alumnos <br>consiguen trabajo</p>
+        </div>
+        <div class="stats__item">
+          <h5 class="stats__item-title--green">$18,000</h5>
+          <p>Becas Frontend <br>y Backend</p>
+        </div>
+      </article>
+      <article class="code__slogan">
+        <p>
+          <span class="code-slogan__operator">if</span>
+          <span class="code-slogan__sign">(</span>
+          <span class="code-slogan__text">want to work</span>
+          <span class="code-slogan__sign">==</span>
+          <span class="code-slogan__object">true</span>
+          <span class="code-slogan__sign">)</span>
+          <span class="code-slogan__operator">return</span>
+          <span class="code-slogan__object">centraalAcademy()</span>
+          <span class="code-slogan__sign">;</span>
+        </p>
+      </article>
+    </div>
+  </section>
+  <section class="programs">
+    <div class="content programs__grid">
+      <h2 class="programs__title">Academy</h2>
+      <h2 class="programs__title--double">Programas</h2>
+      <picture class="programs-card">
+        <img src="img/academy.png" class="programs__image">
+      </picture>
+      <article class="programs__card programs__card-background--front">
+        <div class="programs__card-div ">
+          <h5 class="programs__card-title front-end ">Front <br>End</h5>
+          <p class="programss__card-text">Principiante</p>
+        </div>
+      </article>
+      <article class="programs__card programs__card-background--back">
+        <div class="programs__card-div">
+
+          <h5 class="programs__card-title back-end">Back <br>End</h5>
+          <p class="programss__card-text">Principiante</p>
+        </div>
+      </article>
+      <article class="programs__action-card">
+        <h6 class="programs__action-card__title">Comienza ahora!</h6>
+        <p class="programs__action-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum culpa quaerat veniam corporis accusantium cum alias, quis praesentium modi repellendus.</p>
+        <button class="navbar__button modal__button">Aplica</button>
+      </article>
+      <article class="programs__card">
+        <div class="programs__card-div">
+          <h5 class="programs__card-title">Front end</h5>
+          <p class="programss__card-text">Principiante</p>
+        </div>
+      </article>
+      <article class="programs__card">
+        <div class="programs__card-div">
+          <h5 class="programs__card-title">Front end</h5>
+          <p class="programss__card-text">Principiante</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="modal modal--hidden">
+    <div class="modal__background hide-modal"></div>
+    <div class="modal__card">
+      <span class="hide-modal">X</span>
+      <h4>Mi modal</h4>
+      <form action="" >
+        <label for="name">Nombre</label>
+        <input type="text" name="name" value="" id="name">
+        <label for="email">Email</label>
+        <input type="text" name="email" value="" id="email">
+        <input type="button" value="Send" class="navbar__button">
+      </form>
+    </div>
+  </section>
+  <script src="scripts.js" charset="utf-8"></script>
+</body>
+</html>
