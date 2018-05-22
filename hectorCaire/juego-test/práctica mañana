@@ -1,0 +1,13 @@
+Componente con 4 inputs de tipo NUmber
+
+boton validar:
+input1 debe tener 8 caracteres numéricos
+input2 debe tener 5 caracteres
+input3 debe tener 9 caracteres
+input4 debe tener 2 caracteres
+
+
+el componente debe poder personalizarse en el número de caracteres de los input.
+cuando todos los inputs estén vañlidados debe de enviar un custom event
+
+hacerlo con tdd
